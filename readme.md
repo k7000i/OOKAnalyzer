@@ -9,6 +9,8 @@ The device uses some sort of PIC, hooked directly to a transistor which is switc
 The PIC generating the OOK signal directly, so i hooked up the Saleae logic analyzer. No encoder can decode the signal, so I have to make one from Saleae open source SampleAnalyzer SDK.
 The code is little bit shitty because i don't had much time for it, but it works ;)
 
+The sample rate must be 20M/s.
+
 I attached a sample file which is recorder from the transmitter device itself.
 ![analyzer](static/logic_screen.png)
 
