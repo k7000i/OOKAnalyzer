@@ -37,7 +37,12 @@ ID
 
 Channel
 -------
-0000 -> send to all channel
+0101 - 0x05 ch1
+0100 - 0x04 ch2
+0011 - 0x03 ch3
+0010 - 0x02 ch4
+0001 - 0x01 ch5
+0000 - all channel transmit
 
 Commands
 --------
