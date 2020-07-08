@@ -55,7 +55,7 @@ Commands
 ```
 
 
-Note - This repository contains a submodule. Be sure to include submodules when cloning, for example `https://github.com/k7000i/OOKAnalyzer.git`. If you download the repository from Github, the submodules are not included. In that case you will also need to download the AnalyzerSDK repository linked above and place the AnalyzerSDK folder inside of the OOKAnalyzer folder.
+Note - This repository contains a submodule. Be sure to include submodules when cloning, for example `git clone --recursive https://github.com/k7000i/OOKAnalyzer.git`. If you download the repository from Github, the submodules are not included. In that case you will also need to download the AnalyzerSDK repository linked above and place the AnalyzerSDK folder inside of the OOKAnalyzer folder.
 
 The project needs to be built. Run the following command:
 
