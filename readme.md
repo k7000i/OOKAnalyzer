@@ -12,6 +12,8 @@ The code is little bit shitty because i don't had much time for it, but it works
 I attached a sample file which is recorder from the transmitter device itself.
 ![analyzer](static/logic_screen.png)
 
+A lot of material came from here: https://forum.mysensors.org/topic/7/controlling-blinds-com-rf-dooya-motors-with-arduino-and-vera/44 and here: https://www.electroschematics.com/433mhz-rf-sniffer/
+
 ```html
 The transmission consist of 12x5 Byte packet except the stop transmission 
 which consist of 6x5 byte packet.
@@ -26,6 +28,10 @@ Protocol
                ID                 Channel    Command
 11110111 10111000 11100110 0000  |  0101  |  00010001
 -----------------------------------------------------
+
+ID
+--
+28 bit identifier unique to remote. I assume this part is gets learned by the receiver.
 
 Channel
 -------
